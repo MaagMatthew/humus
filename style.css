@@ -1,5 +1,7 @@
 html{
-    text-decoration-line: none;
+    color: #507;
+    font-family: 'Aladin', 'Comic-sans', 'Times-New-Roman', serif;
+    font-size-adjust: 110%;
 }
 
 nav{
@@ -8,13 +10,43 @@ nav{
 
 }
 
-.menu{
-    flex: 1;
-
+p{
+    padding: 20px;
 }
 
-li{
-    margin: 3px;
-    border: 1px solid black;
-    border-radius: 20px;
+#logo{
+    height: 100px;
+    left: 20px;
+}
+
+menu{
+    background-color: #000;
+    position: fixed;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+}
+
+article{
+    padding-top: 225px;
+}
+
+#menu{
+    text-align: center;
+    color: #fff;
+    font-size: 20pt;
+    padding: 20px;
+}
+
+a:link{
+    background: #739;
+    flex: 1;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(136, 102, 153);
 }
