@@ -53,6 +53,15 @@ aside{
     /* border: #739; */
 }
 
+canvas{
+    margin-left: 250px;
+}
+
+#aboutUs{
+    height: 1650px;
+    line-height: 2.7em;
+}
+
 #menu{
     text-align: center;
     color: #fff;

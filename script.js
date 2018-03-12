@@ -10,7 +10,7 @@ var reviews= [11, 4, 5, 3, 2];
 function drawRect()
 {
     ctx.fillStyle = "#7e3896";
-    ctx.fillRect(border, 12.5, dim, dim);
+    ctx.fillRect(border, 12.5,dim*2, dim);
     ctx.fill();
 }
 
@@ -21,7 +21,7 @@ function drawBars()
     ctx.fillStyle = "#f8d267";
     for(var i = 0; i<reviews.length; i++)
     {
-    ctx.fillRect(border,(xSpace*i+20),((reviews[i]) * 10),25);
+    ctx.fillRect(border,(xSpace*i+20),((reviews[i]) * 40),25);
     }
     ctx.fill();
 }
@@ -30,7 +30,7 @@ drawBars();
 function drawLines()
 {
     ctx.fillStyle = "#f8d267";
-    for(var i = 0; i<reviews.length; i++)
+    for(var i = 0; i<reviews.length*2; i++)
     {
         ctx.fillRect((border + (lineSpace*i)),12.5,1,dim);
     }
