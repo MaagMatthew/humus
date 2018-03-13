@@ -88,3 +88,14 @@ a:link{
 tr:hover{
     background-color: #aaa;
 }
+
+#FlavoringTable{
+    border-bottom: 1px solid #507;
+    margin-right: 5px;
+    padding-right: 30px; 
+}
+
+#tableSpacing{
+    padding-right: 30px;
+
+}
