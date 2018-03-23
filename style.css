@@ -99,3 +99,7 @@ tr:hover{
     padding-right: 30px;
 
 }
+
+p6:active{
+    font-size: 2em;
+}
